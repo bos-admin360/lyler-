@@ -5,9 +5,9 @@
   },
   "waitFor": "onCreateCommand",
   "updateContentCommand": "npm install && npm run build",
-  "postCreateCommand": "",
+  "postCreateCommand": "get! ",
   "postAttachCommand": {
-    "server": "npm run dev"
+    "server": 4585.0 "npm run dev"
   },
   "customizations": {
     "codespaces": {
